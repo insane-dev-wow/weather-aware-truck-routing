@@ -1,0 +1,26 @@
+{
+  "name": "weather-truck-routing-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "React client for the Weather-Aware Truck Routing API.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node --test src/lib/*.test.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.5.0",
+    "@mui/material": "^9.5.0",
+    "maplibre-gl": "^6.14.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.4"
+  }
+}

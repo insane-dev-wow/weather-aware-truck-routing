@@ -1,0 +1,41 @@
+# Python (backend)
+backend/__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+backend/.venv/
+backend/venv/
+backend/env/
+backend/*.sqlite3
+backend/db.sqlite3
+backend/staticfiles/
+.python-version
+
+# Secrets / local env (keep *.example and production Vite public URL)
+.env
+.env.*
+!.env.example
+!**/.env.example
+!frontend/.env.production
+
+# Node (frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+
+# Deploy / local tooling
+.vercel/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
